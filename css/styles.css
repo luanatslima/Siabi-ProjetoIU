@@ -12,3 +12,15 @@ body h1{
 .img-noticia {
     border-radius: 10px;
 }
+
+.imagem-livro {
+    width: 160px;
+}
+
+.img-livro {
+    width: 100%;
+    height: 240px; /* altura fixa */
+    object-fit: cover; /* garante que a imagem preencha o espaço sem distorcer */
+    border-radius: 10px;
+}
+
